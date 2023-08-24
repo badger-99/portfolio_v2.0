@@ -1,6 +1,7 @@
 $primary-accent: #ffd700;
 $icon-color: #4d4d4e;
 $sidebar-background: #181818;
+
 .nav-bar {
   background: $sidebar-background;
   width: 60px;
@@ -26,6 +27,7 @@ $sidebar-background: #181818;
     }
   }
 }
+
 nav {
   display: block;
   text-align: center;
@@ -95,6 +97,31 @@ nav {
   .active {
     svg {
       color: $primary-accent;
+    }
+  }
+}
+
+ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+
+  li {
+    a {
+      padding: 7px 0;
+      display: block;
+      font-size: 15px;
+      line-height: 16px;
+      color: $icon-color;
+
+      &:hover svg {
+        color: $primary-accent;
+      }
     }
   }
 }
