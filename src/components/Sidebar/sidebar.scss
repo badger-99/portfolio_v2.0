@@ -1,3 +1,28 @@
 $primary-accent: #ffd700;
 $icon-color: #4d4d4e;
 $sidebar-background: #181818;
+.nav-bar {
+  background: $sidebar-background;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  .logo {
+    display: block;
+    padding: 8px 0;
+
+    img {
+      display: block;
+      margin: 8px auto;
+      width: 24px;
+      height: auto;
+
+      &.sub-logo {
+        width: 50px;
+      }
+    }
+  }
+}
