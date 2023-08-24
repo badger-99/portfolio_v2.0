@@ -1,5 +1,8 @@
 @import 'animate.css';
 
+$body-background-color:#022c43;
+$text-color:#444;
+
 // Default font
 @font-face {
   font-family: 'Helvetica Neue';
@@ -30,9 +33,9 @@ html{
 
 body{
   // ------- weight size/line-height
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #444;
-  background: #022c43;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: $text-color;
+  background: $body-background-color;
   overflow: hidden;
   display: block;
 }
