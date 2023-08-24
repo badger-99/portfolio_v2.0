@@ -1,3 +1,23 @@
+@import 'animate.css';
+
+// Default font
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+// background tags
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+// 
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/Coolvetica.woff2') format('woff2');
+}
+
 *{
   margin: 0;
   padding: 0;
