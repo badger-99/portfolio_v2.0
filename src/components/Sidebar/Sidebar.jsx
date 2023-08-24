@@ -9,6 +9,13 @@ import {
   faUser,
   faX
 } from '@fortawesome/free-solid-svg-icons';
+import {
+  faGithub,
+  faLinkedin,
+  faMedium,
+  faXTwitter
+} from '@fortawesome/free-brands-svg-icons';
+
 const Sidebar = () => {
   return (
     <div className="nav-bar">
@@ -29,6 +36,47 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://www.linkedin.com/in/alfredmkg"
+          >
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://github.com/badger-99"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://twitter.com/AlfredMkg"
+          >
+            <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            target="_blank"
+            rel="noreferer"
+            href="https://medium.com/@alfred.mkg"
+          >
+            <FontAwesomeIcon icon={faMedium} color="#4d4d4e" />
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
