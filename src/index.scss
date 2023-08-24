@@ -23,3 +23,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  // ------- weight size/line-height
+  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  display: block;
+}
