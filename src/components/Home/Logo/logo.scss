@@ -1,7 +1,7 @@
 $primary-accent: #ffd700;
 
 .logo-container{
-  z-index: 0;
+  z-index: -2;
   width: 400px;
   height: 609px;
   position: absolute;
@@ -27,7 +27,7 @@ $primary-accent: #ffd700;
     left: 0;
     margin: auto;
     transform: rotateZ(30deg) !important;
-    z-index: 1;
+    z-index: -1;
     opacity: 0;
     width: 100%;
   }
