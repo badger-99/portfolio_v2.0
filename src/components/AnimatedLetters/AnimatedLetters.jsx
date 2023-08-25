@@ -1,11 +1,11 @@
 import './animatedLetters.scss';
 
-const AnimatedLetters = ({charClass, charArray, idx}) => {
+const AnimatedLetters = ({charClassName, charArray, idx}) => {
   return (
     <span>
       {
         charArray.map((char, i) => (
-          <span key={char + i} className={`${charClass} _${i + idx}`}>
+          <span key={char + i} className={`${charClassName} _${i + idx}`}>
             {char}
           </span>
         ))
