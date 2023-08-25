@@ -26,13 +26,18 @@ const Logo = () => {
 
     gsap.fromTo(
       solidLogoRef.current,
-      {opacity: 0},
-      {opacity: 1, delay: 4, duration: 4}
+      {
+        opacity: 0
+      },
+      {
+        opacity: 1,
+        delay: 4,
+        duration: 4
+      }
     );
-
-    // didAnimate.current = true;
   }, []);
-
+  
+  // didAnimate.current = true;
   // useEffect(() => {
   //   if (didAnimate.current) return (didAnimate.current = true);
   // });
