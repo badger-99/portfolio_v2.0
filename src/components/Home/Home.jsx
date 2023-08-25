@@ -7,27 +7,8 @@ import './home.scss';
 const Home = () => {
   const [theClassName, setTheClassName] = useState('text-animate');
   const nameArray = ['l', 'f', 'r', 'e', 'd', '.'];
-  const jobArray = [
-    'S',
-    'o',
-    'f',
-    't',
-    'w',
-    'a',
-    'r',
-    'e',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.'
-  ];
+  const jobArray1 = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' '];
+  const jobArray2 = ['d', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
   useEffect(() => {
     setTimeout(() => {
@@ -55,8 +36,13 @@ const Home = () => {
           <br />
           <AnimatedLetters
             charClassName={theClassName}
-            charArray={jobArray}
+            charArray={jobArray1}
             idx={24}
+          />
+          <AnimatedLetters className='dev'
+            charClassName={theClassName}
+            charArray={jobArray2}
+            idx={33}
           />
         </h1>
         <h2>Full-stack developer</h2>
