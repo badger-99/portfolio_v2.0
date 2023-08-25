@@ -6,7 +6,7 @@ import './home.scss';
 
 const Home = () => {
   const [theClassName, setTheClassName] = useState('text-animate');
-  const nameArray = ['l', 'f', 'r', 'e', 'd'];
+  const nameArray = ['l', 'f', 'r', 'e', 'd', '.'];
   const jobArray = [
     'S',
     'o',

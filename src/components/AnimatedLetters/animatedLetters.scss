@@ -19,7 +19,7 @@ $primary-accent: #ffd700;
   }
 }
 
-@for $i from 1 through 43 {
+@for $i from 1 through 44 {
   .text-animate._#{$i} {
     animation-delay: #{$i/10}s;
   }
