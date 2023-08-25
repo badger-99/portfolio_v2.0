@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
+import Logo from './Logo/Logo';
 import './home.scss';
 
 const Home = () => {
@@ -50,6 +51,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   );
 };
