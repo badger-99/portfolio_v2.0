@@ -6,14 +6,15 @@
   margin-left: 0;
   position: absolute;
   right: 0;
-  overflow: hidden ;
+  overflow: hidden;
 }
 
 .cube-spinner{
-  animation-name:spincube;
+  animation-name: spincube;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 12s;
+  transform-style: preserve-3d;
   transform-origin: 100px 100px 0;
   margin-left: calc(50% - 100px);
 
