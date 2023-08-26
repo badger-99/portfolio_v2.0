@@ -1,3 +1,7 @@
+$input-background:#115173;
+$primary-accent: #ffd700;
+$font-color:#fff;
+
 .contact-form{
   width: 100%;
   margin-top: 20px;
@@ -12,7 +16,52 @@
       opacity: 0;
       animation: fadeInUp 2s 2s;
       animation-fill-mode: forwards;
-
+      clear: both;
     }
+
+    li.half{
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+
+  input[type='text'],
+  input[type='email']{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: $input-background;
+    font-size: 16px;
+    color: $font-color;
+    padding: 0 20px;
+  }
+
+  textarea{
+    width: 100%;
+    height: 50px;
+    min-height: 150px;
+    border: none;
+    background: $input-background;
+    font-size: 16px;
+    color: $font-color;
+    padding: 20px;
+  }
+
+  .flat-button{
+    color: $primary-accent;
+    background: transparent;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid $primary-accent;
+    float: right;
+    border-radius: 5px;
   }
 }
