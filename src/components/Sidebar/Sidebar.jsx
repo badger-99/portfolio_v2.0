@@ -1,5 +1,4 @@
 import { Link, NavLink } from 'react-router-dom';
-import './sidebar.scss';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,6 +14,7 @@ import {
   faMedium,
   faXTwitter
 } from '@fortawesome/free-brands-svg-icons';
+import './sidebar.scss';
 
 const Sidebar = () => {
   return (
@@ -36,7 +36,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
       </nav>
-      <ul>
+      <ul className='social-links'>
         <li>
           <a
             target="_blank"
