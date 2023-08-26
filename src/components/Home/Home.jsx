@@ -4,6 +4,7 @@ import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import Logo from './Logo/Logo';
 import './home.scss';
+import Loader from 'react-loaders';
 
 const Home = () => {
   const [theClassName, setTheClassName] = useState('text-animate');
@@ -18,41 +19,45 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container home-page">
-      <div className="text-zone">
-        <h1>
-          <span className={theClassName}>H</span>
-          <span className={`${theClassName} _12`}>i</span>
-          <span className={`${theClassName} _13`}>,</span>
-          <br />
-          <span className={`${theClassName} _14`}>I</span>
-          <span className={`${theClassName} _15`}>'</span>
-          <span className={`${theClassName} _16`}>m</span>
-          <img src={LogoTitle} alt="developer" />
-          <AnimatedLetters
-            charClassName={theClassName}
-            charArray={nameArray}
-            idx={17}
-          />
-          <br />
-          <AnimatedLetters
-            charClassName={theClassName}
-            charArray={jobArray1}
-            idx={24}
-          />
-          <AnimatedLetters className='dev'
-            charClassName={theClassName}
-            charArray={jobArray2}
-            idx={33}
-          />
-        </h1>
-        <h2>Full-stack developer</h2>
-        <Link className="flat-button" to="/contact">
-          CONTACT ME
-        </Link>
+    <>
+      <div className="container home-page">
+        <div className="text-zone">
+          <h1>
+            <span className={theClassName}>H</span>
+            <span className={`${theClassName} _12`}>i</span>
+            <span className={`${theClassName} _13`}>,</span>
+            <br />
+            <span className={`${theClassName} _14`}>I</span>
+            <span className={`${theClassName} _15`}>'</span>
+            <span className={`${theClassName} _16`}>m</span>
+            <img src={LogoTitle} alt="developer" />
+            <AnimatedLetters
+              charClassName={theClassName}
+              charArray={nameArray}
+              idx={17}
+            />
+            <br />
+            <AnimatedLetters
+              charClassName={theClassName}
+              charArray={jobArray1}
+              idx={24}
+            />
+            <AnimatedLetters
+              className="dev"
+              charClassName={theClassName}
+              charArray={jobArray2}
+              idx={33}
+            />
+          </h1>
+          <h2>Full-stack developer</h2>
+          <Link className="flat-button" to="/contact">
+            CONTACT ME
+          </Link>
+        </div>
+        <Logo />
       </div>
-      <Logo />
-    </div>
+      <Loader type="pacman" />
+    </>
   );
 };
 export default Home;
