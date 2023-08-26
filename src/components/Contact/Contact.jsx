@@ -14,7 +14,7 @@ const Contact = () => {
   }, []);
   return (
     <>
-      <div className="continer contact-page">
+      <div className="container contact-page">
         <div className="text-zone">
           <h1>
             <AnimatedLetters
