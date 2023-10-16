@@ -1,8 +1,12 @@
 import React from "react";
+import Loader from "react-loaders";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+      <h1>Portfolio</h1>
+      <Loader type="pacman" />
+    </>
   )
 }
 export default Portfolio
