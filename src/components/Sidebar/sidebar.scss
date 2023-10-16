@@ -88,6 +88,12 @@ nav {
     }
   }
 
+  .portfolio-link {
+    &:after {
+      content: 'PORTFOLIO';
+    }
+  }
+
   .contact-link {
     &:after {
       content: 'CONTACT';

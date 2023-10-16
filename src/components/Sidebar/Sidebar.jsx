@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faEnvelope,
   faHome,
+  faSuitcase,
   faUser,
   faX
 } from '@fortawesome/free-solid-svg-icons';
@@ -32,9 +33,14 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faUser} />
         </NavLink>
 
+        <NavLink className="portfolio-link" exact="true" to="/portfolio">
+          <FontAwesomeIcon icon={faSuitcase} />
+        </NavLink>
+        
         <NavLink className="contact-link" exact="true" to="/contact">
           <FontAwesomeIcon icon={faEnvelope} />
         </NavLink>
+
       </nav>
       <ul className='social-links'>
         <li>
