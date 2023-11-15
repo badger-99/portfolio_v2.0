@@ -1,0 +1,57 @@
+{
+  "portfolio": [
+    {
+      "Cover": "src/assets/portfolio/crypto_market_rankings/CryptoMarketRankings.PNG",
+      "Title": "Crypto Market Rankings",
+      "Stack": "React, React Router, Redux, CSS",
+      "Description": "Get key market stats on the current top100 cryptocurrencies.",
+      "Demo": "https://crypto-marketcap-rankings.netlify.app/",
+      "Code": "https://github.com/badger-99/crypto-marketcap-rankings"
+    },
+
+    {
+      "Cover": "src/assets/portfolio/space_travelers_hub/SpaceTravellersHub.PNG",
+      "Title": "Space Travellers Hub",
+      "Stack": "React, React Router, Redux, CSS",
+      "Description": "Sign up for missions in Space, and reserve a rocket of your choosing.",
+      "Demo": "https://cosmic-missions.onrender.com/",
+      "Code": "https://github.com/badger-99/space-travelers-hub"
+    },
+
+    {
+      "Cover": "src/assets/portfolio/math_magicians/MathMagicians.PNG",
+      "Title": "Math Magicians",
+      "Stack": "React, CSS",
+      "Description": "Do math and read quotes.",
+      "Demo": "https://react-calculator-and-quotes.onrender.com/calculator",
+      "Code": "https://github.com/badger-99/math-magicians"
+    },
+
+    {
+      "Cover": "src/assets/portfolio/awesome_books/AwesomeBooks.PNG",
+      "Title": "Awesome Books",
+      "Stack": "JavaScript, HTML, CSS",
+      "Description": "Keep track of books you like or want to read.",
+      "Demo": "https://badger-99.github.io/Book-List-ES6/",
+      "Code": "https://github.com/badger-99/Book-List-ES6"
+    },
+
+    {
+      "Cover": "src/assets/portfolio/to-do_list/To-Do_List.PNG",
+      "Title": "To-do List",
+      "Stack": "JavaScript, HTML, CSS",
+      "Description": "Boost your productivity by keeping track of your daily tasks.",
+      "Demo": "https://badger-99.github.io/To-Do_List/dist/",
+      "Code": "https://github.com/badger-99/To-Do_List"
+    },
+
+    {
+      "Cover": "src/assets/portfolio/leaderboard/Leaderboard.PNG",
+      "Title": "Leaderboard",
+      "Stack": "JavaScript, HTML, CSS",
+      "Description": "Keep track of scores and take your game nights to the next level!",
+      "Demo": "https://badger-99.github.io/Leaderboard/dist/",
+      "Code": "https://github.com/badger-99/Leaderboard"
+    }
+  ]
+}
