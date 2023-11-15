@@ -21,6 +21,6 @@ $primary-accent: #ffd700;
 
 @for $i from 1 through 44 {
   .text-animate._#{$i} {
-    animation-delay: #{$i/10}s;
+    animation-delay: calc($i / 10)s;
   }
 }
